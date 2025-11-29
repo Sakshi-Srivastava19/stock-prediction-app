@@ -5,7 +5,7 @@ Users can fetch stock data, explore charts, and generate predictions easily.
 
 ---
 
-## 🚀 Features
+## 🚀 Features of the app
 
 ### 🏠 Home Page
 - Welcome screen  
@@ -45,15 +45,25 @@ Users can fetch stock data, explore charts, and generate predictions easily.
 
 ## 📦 Project Structure
 stock-prediction-app/
+
 │── app.py
+
 │── requirements.txt
+
 │── README.md
+
 │── models/
+
 │ ├── linear_regression.joblib
+
 │ ├── ann_model.h5
+
 │ ├── minmax_scaler.joblib
+
 │── notebook/
+
 │ ├── Internship_Yfinance
+
 │── .gitignore
 
 
@@ -63,28 +73,36 @@ stock-prediction-app/
 
 ### 1️⃣ Clone the repository
 
-git clone https://github.com/Sakshi-Srivastava19/stock-prediction-app.git
+    git clone https://github.com/Sakshi-Srivastava19/stock-prediction-app.git
 
-cd stock-prediction-app
+    cd stock-prediction-app
+   
 
 ### 2️⃣ Create virtual environment
 
-python -m venv venv
+   python -m venv venv
 
-venv\Scripts\activate
+   venv\Scripts\activate
+
 
 ### 3️⃣ Install dependencies
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
+   
 
 ### ▶️ Run the Streamlit App
-streamlit run app.py
+
+    streamlit run app.py
+    
 
 ### 🌐 Deployment Options
 
 Streamlit Cloud
 
+
 ### Run the app: https://stock-prediction-app1922.streamlit.app/ 
+
+
 
 ## 🙌 Author
 
